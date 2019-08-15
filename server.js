@@ -4,7 +4,7 @@ const express = require('express');
 const bodyParser = require('body-parser');
 const cors = require('cors')
 const app = express();
-const PORT = process.env.port || 5000;
+const PORT = process.env.PORT || 5000;
 const {Clothes} = require ("./models/store.js")
 mongoose.connect(URL, () => { console.log("----- Base de Datos Conectada -----") });
 app.use(bodyParser.urlencoded({ extended: true }))
