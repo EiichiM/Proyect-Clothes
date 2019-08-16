@@ -14,6 +14,8 @@ const CShema = new Schema({
     color: String,
     price: Number,
     talla: String,
+    gender: String,
+    estilo: String,
     url: String,
 },{ timestamps:true})
 
